@@ -6,8 +6,6 @@ public class Main {
     public static void main(String[] args) {
         ResourceConnector connector = new ResourceConnector();
         System.out.println("*** Add cities ***");
-        //CheckStyle was complaining about founding dates being magic numbers, but I don't really see the point
-        //of creating separate int variables for each one unless I'm wrong
         connector.addCity(new City("Italy", "Marche", "Ancona", 387));
         connector.addCity(new City("Italy", "Lazio", "Rome", -753));
         connector.addCity(new City("Greece",  "Attica", "Athens", -3000));

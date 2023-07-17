@@ -63,7 +63,6 @@ public class ResourceConnector {
         //retrieving cities from server with relevant filters
         ClientResponse response = baseURI.path("get").queryParams(queryParamMap).type(MediaType.APPLICATION_JSON)
                 .get(ClientResponse.class);
-        //same here with checkstyle complaining about magic number
         if (response.getStatus() != 200) {
             System.out.println("GET Failed with code: " + response.getStatus());
             return null;
