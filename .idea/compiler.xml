@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BookRestClientIntelliJ" />
         <module name="client" />
+        <module name="CS-253-Web-Development-Client" />
       </profile>
     </annotationProcessing>
   </component>
